@@ -205,26 +205,25 @@ export const createProperty = async (
       managerCognitoId,
       ...propertyData
     } = req.body;
-    console.log("body")
-    // const photoUrls = await Promise.all(
-    //   files.map(async (file) => {
-    //     const uploadParams = {
-    //       Bucket: process.env.S3_BUCKET_NAME!,
-    //       Key: `properties/${Date.now()}-${file.originalname}`,
-    //       Body: file.buffer,
-    //       ContentType: file.mimetype,
-    //     };
 
-    //     const uploadResult = await new Upload({
-    //       client: s3Client,
-    //       params: uploadParams,
-    //     }).done();
+    const photoUrls = await Promise.all(
+      files.map(async (file) => {
+        const uploadParams = {
+          Bucket: process.env.S3_BUCKET_NAME!,
+          Key: `properties/${Date.now()}-${file.originalname}`,
+          Body: file.buffer,
+          ContentType: file.mimetype,
+        };
 
-    //     return uploadResult.Location;
-    //   })
-    // );
-    const photoUrls = ['https://example.com/brownstone1.jpg', 'https://example.com/brownstone2.jpg']
-    console.log("photoUrls")
+        const uploadResult = await new Upload({
+          client: s3Client,
+          params: uploadParams,
+        }).done();
+
+        return uploadResult.Location;
+      })
+    );
+
     const geocodingUrl = `https://nominatim.openstreetmap.org/search?${new URLSearchParams(
       {
         street: address,
