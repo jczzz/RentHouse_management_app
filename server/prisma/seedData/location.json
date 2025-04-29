@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "country": "Canada",
+    "city": "West Vancouver",
+    "state": "BC",
+    "address": "2592 Rosebery Ave",
+    "postalCode": "V7V 2Z9",
+    "coordinates": "POINT(-123.185129 49.343098)"
+  },
+  {
+    "id": 2,
+    "country": "Canada",
+    "city": "West Vancouver",
+    "state": "BC",
+    "address": "3610 McKechnie Ave",
+    "postalCode": "V7V 2M6",
+    "coordinates": "POINT(-123.216849 49.341236)"
+  },
+  {
+    "id": 3,
+    "country": "Canada",
+    "city": "Vancouver",
+    "state": "BC",
+    "address": "4773 Belmont Ave",
+    "postalCode": "V6T 1A8",
+    "coordinates": "POINT(-123.218512 49.275562)"
+  },
+  {
+    "id": 4,
+    "country": "Canada",
+    "city": "Vancouver",
+    "state": "BC",
+    "address": "5516 NW Marine Dr",
+    "postalCode": "V6T 1H5",
+    "coordinates": "POINT(-123.244773 49.278259)"
+  },
+  {
+    "id": 5,
+    "country": "Canada",
+    "city": "Burnaby",
+    "state": "BC",
+    "address": "6686 Deer Lake Dr",
+    "postalCode": "V5E 2L8",
+    "coordinates": "POINT(-122.965396 49.233653)"
+  },
+  {
+    "id": 6,
+    "country": "United States",
+    "city": "Malibu",
+    "state": "CA",
+    "address": "888 Malibu Road",
+    "postalCode": "90265",
+    "coordinates": "POINT(-118.774518 34.025922)"
+  },
+  {
+    "id": 7,
+    "country": "United States",
+    "city": "Glendale",
+    "state": "CA",
+    "address": "777 Brand Blvd",
+    "postalCode": "91203",
+    "coordinates": "POINT(-118.254708 34.142508)"
+  },
+  {
+    "id": 8,
+    "country": "United States",
+    "city": "Torrance",
+    "state": "CA",
+    "address": "555 Torrance Blvd",
+    "postalCode": "90503",
+    "coordinates": "POINT(-118.352575 33.835849)"
+  },
+  {
+    "id": 9,
+    "country": "United States",
+    "city": "Miami",
+    "state": "FL",
+    "address": "1234 Ocean Dr",
+    "postalCode": "33139",
+    "coordinates": "POINT(-80.130045 25.782551)"
+  },
+  {
+    "id": 10,
+    "country": "United States",
+    "city": "Beverly Hills",
+    "state": "CA",
+    "address": "789 Rodeo Dr",
+    "postalCode": "90210",
+    "coordinates": "POINT(-118.400356 34.073620)"
+  }
+]
