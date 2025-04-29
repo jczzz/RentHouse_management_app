@@ -104,11 +104,13 @@ const formFields = {
       placeholder: "Enter your email",
       label: "Email",
       isRequired: true,
+      defaultValue: "jczhang1618@gmail.com",
     },
     password: {
       placeholder: "Enter your password",
       label: "Password",
       isRequired: true,
+      defaultValue: "Re123456!",
     },
   },
   signUp: {
