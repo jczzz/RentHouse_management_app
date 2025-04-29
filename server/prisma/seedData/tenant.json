@@ -162,13 +162,23 @@
   },
   {
     "id": 15,
-    "cognitoId": "c8916340-4011-7015-61e1-5032d7c14f5a",
-    "name": "ben ben",
-    "email": "jczhang1618@gmail.com",
+    "cognitoId": "us-east-2:e9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Olivia Chen",
+    "email": "olivia.chen@example.com",
     "phoneNumber": "+1 (555) 159-7531",
     "properties": {
       "connect": [{ "id": 5 }]
     },
+    "favorites": {
+      "connect": [{ "id": 4 }, { "id": 7 }, { "id": 9 }]
+    }
+  },
+  {
+    "id": 16,
+    "cognitoId": "c8916340-4011-7015-61e1-5032d7c14f5a",
+    "name": "ben ben",
+    "email": "jczhang1618@gmail.com",
+    "phoneNumber": "+1 (555) 159-7531",
     "favorites": {
       "connect": [{ "id": 4 }, { "id": 7 }, { "id": 9 }]
     }
